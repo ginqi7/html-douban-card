@@ -1,32 +1,25 @@
 {
-    "name": "hexo-douban-card",
-    "version": "1.4.0",
-    "description": "Generate douban card for hexo with customized renderer.",
-    "main": "index.js",
-    "scripts": {},
-    "keywords": [
-        "hexo",
-        "douban",
-        "blog"
-    ],
-    "author": {
-        "name": "TankNee",
-        "email": "nee@tanknee.cn",
-        "url": "https://www.tanknee.cn"
-    },
-    "license": "MIT",
-    "dependencies": {
-        "cheerio": "^1.0.0-rc.3",
-        "hexo-fs": "^3.1.0",
-        "hexo-log": "^3.1.0",
-        "superagent": "^5.3.1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/TankNee/hexo-douban-card.git"
-    },
-    "engines": {
-        "hexo": ">= 3.0.0"
-    },
-    "readmeFilename": "README.md"
+  "name": "html-douban-card",
+  "version": "0.0.1",
+  "description": "Replace the Douban link with a Douban card.",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": ["douban", "blog"],
+  "author": {
+    "name": "ginqi7",
+    "email": "ginqi7@gmail.com",
+    "url": "https://www.qiqijin.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "hexo-fs": "^3.1.0",
+    "hexo-log": "^3.1.0",
+    "superagent": "^5.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ginqi7/html-douban-card"
+  },
+  "readmeFilename": "README.md"
 }
