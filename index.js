@@ -60,6 +60,14 @@ async function replaceDoubanUrls(html) {
         'a[href*="https://movie.douban.com/subject/"], a[href*="https://music.douban.com/subject/"], a[href*="https://book.douban.com/subject/"]',
     );
 
+    // Add Styles in the html.
+    if (links.length > 0) {
+        customStyles = fs.readFileSync(DOUBAN_CARD_STYEL);
+        if ($("style").text().indexOf(customStyles) === -1) {
+            $("head").append(`<style>${customStyles}</style>`);
+        }
+    }
+
     // Iterate through each link
     for (let i = 0; i < links.length; i++) {
         const link = links[i];
