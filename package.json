@@ -1,6 +1,6 @@
 {
   "name": "html-douban-card",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Replace the Douban link with a Douban card.",
   "main": "index.js",
   "scripts": {},
