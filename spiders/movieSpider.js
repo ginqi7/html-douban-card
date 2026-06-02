@@ -77,7 +77,8 @@ class MovieSpider extends BaseSpider {
         });
         var status = $("#interest_sect_level > div > span.mr10").text() || this.placeholder;
         status = status.replace(/\s/g, "").replace(/\n/g, "");
-        var bgUrl = $("#mainpic img").attr("src");
+      var bgUrl = $("#mainpic img").attr("src");
+      bgUrl = bgUrl.replace(/img[0-9]/g, "img1");
         info = {
             status,
             ...info,

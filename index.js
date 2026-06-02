@@ -4,15 +4,8 @@ const path = require("path");
 const fs = require("hexo-fs");
 const HexoLog = require("hexo-log");
 const cheerio = require("cheerio");
-doubanCard = {
-    cookie: "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    imgProxy: "https://images.weserv.nl/?url=",
-};
-var cookie, imgProxy;
-if (doubanCard) {
-    cookie = doubanCard.cookie;
-    imgProxy = doubanCard.imgProxy;
-}
+var cookie = process.env.DOUBAN_COOKIE;
+var imgProxy = process.env.DOUBAN_IMG_PROXY;
 
 const DOUBAN_CARD_BOOK_TEMPLATE = path.resolve(
     __dirname,
