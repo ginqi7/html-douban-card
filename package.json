@@ -1,10 +1,13 @@
 {
   "name": "html-douban-card",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Replace the Douban link with a Douban card.",
   "main": "index.js",
   "scripts": {},
-  "keywords": ["douban", "blog"],
+  "keywords": [
+    "douban",
+    "blog"
+  ],
   "author": {
     "name": "ginqi7",
     "email": "ginqi7@gmail.com",
